@@ -44,13 +44,8 @@ color: #404bbf;
 .menu-link:active {
 color: #404bbf;
 }
-.address {
+address {
     font-style: normal;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-    color: #434455;
 }
 .address-nav:hover,
 .address-nav:focus {
@@ -112,6 +107,12 @@ background: #404bbf;
 /* Benefits Styles */
 
 /* Team Styles */
+.team-section {
+    background-color: #F4F4FD;
+}
+.team-person {
+    background-color: #FFFFFF;
+}
 .team-title {
     font-weight: 700;
     font-size: 36px;
@@ -171,14 +172,14 @@ background-color:#2e2f42;
     font-family: "Raleway", sans-serif;
     font-weight: 700;
     font-size: 18px;
-    line-height: 1.16667;
+    line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    color: #f4f4fd;
+    color: #4d5ae5;
     background: #2e2f42;
 }
-.logo-footer-blue {
-    color: #4d5ae5;
+.logo-footer-studio {
+    color: #f4f4fd;
 }
 .text-footer {
     font-weight: 400;
