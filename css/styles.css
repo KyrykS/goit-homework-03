@@ -30,13 +30,7 @@ color: #4d5ae5;
 .studio-color {
 color: #2e2f42;
 }
-.menu-link {
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-    color: #2e2f42;
-}
+
 .menu-link:hover,
 .menu-link:focus {
 color: #404bbf;
@@ -47,9 +41,22 @@ color: #404bbf;
 address {
     font-style: normal;
 }
-.address-nav:hover,
-.address-nav:focus {
+.address-item {
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
+
+}
+.address-item:hover,
+.address-item:focus {
     color: #404bbf;
+}
+.menu-link {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
 }
 /* =========== Page Header styles =========== */
 
