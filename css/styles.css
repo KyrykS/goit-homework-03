@@ -92,7 +92,6 @@ background: #404bbf;
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: #2e2f42;
-    background: #f4f4fd;
 }
 .benefits-descr {
     font-weight: 400;
@@ -100,7 +99,6 @@ background: #404bbf;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
-    background: #f4f4fd;
 }
 .benefits-title {
     font-weight: 700;
@@ -151,7 +149,13 @@ background: #404bbf;
 
 /* Portfolio Styles */
 .portfolio-title-main {
-    line-height: 1.11;
+font-weight: 700;
+font-size: 36px;
+line-height: 1.11;
+letter-spacing: 0.02em;
+text-transform: capitalize;
+text-align: center;
+color: #2e2f42;
 }
 .portfolio-title {
     font-weight: 500;
