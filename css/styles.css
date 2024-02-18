@@ -337,8 +337,6 @@ padding: 100px 0;
 padding-top: 100px;
 padding-bottom: 100px;
 width: 264px;
-display: flex;
-flex-direction: column;
 margin-left: 156px;
 margin-right: 1020px;
 }
@@ -352,6 +350,7 @@ margin-right: 1020px;
     color: #4d5ae5;
     background: #2e2f42;
     margin-bottom: 16px;
+    display: inline-block;
 }
 .logo-footer-studio {
     color: #f4f4fd;
@@ -364,8 +363,5 @@ margin-right: 1020px;
     color: #f4f4fd;
     background: #2e2f42;
     display: flex;
-}
-.logo-footer {
-display: inline-block;
 }
 /* =========== /Footer styles =========== */
