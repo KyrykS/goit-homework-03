@@ -4,12 +4,26 @@ body {
     color: #434455;
     background-color: #FFFFFF;
 }
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+margin-top: 0;
+margin-bottom: 0;
+}
 ul,
 ol {
+margin-top: 0;
+margin-bottom: 0;
+padding-left: 0;
 list-style-type: none;
 }
 a {
 text-decoration: none;
+color: inherit;
 }
 button {
 cursor: pointer;
@@ -26,6 +40,9 @@ line-height: 1.17;
 letter-spacing: 0.03em;
 text-transform: uppercase;
 color: #4d5ae5;
+margin-right: 76px;
+display: flex;
+align-items: center;
 }
 .studio-color {
 color: #2e2f42;
@@ -58,12 +75,47 @@ address {
     letter-spacing: 0.02em;
     color: #2e2f42;
 }
+.container {
+width: 1158px;
+padding-right: 15px;
+padding-left: 15px;
+margin-left: auto;
+margin-right: auto;
+}
 /* =========== Page Header styles =========== */
-
+.page-header-container {
+display: flex;
+justify-content: space-between;
+}
+.page-nav {
+display: flex;
+}
 .main-page {
 background-color: #2e2f42;
+margin-bottom: 60px;
 }
-
+.menu {
+display: flex;
+column-gap: 40px;
+}
+.menu-item {
+padding-top: 24px;
+padding-bottom: 24px;
+}
+.address-menu {
+display: flex;
+column-gap: 40px;
+}
+.address-menu-item {
+padding-top: 24px;
+padding-bottom: 24px;
+}
+/*main page styles  */
+.main-page-container {
+    max-width: 496px;
+    padding-top: 188px;
+    padding-bottom: 188px;
+}
 .main-title {
     font-weight: 700;
     font-size: 56px;
@@ -71,6 +123,9 @@ background-color: #2e2f42;
     letter-spacing: 0.02em;
     text-align: center;
     color: #fff;
+    margin-bottom: 48px;
+    margin-left: auto;
+    margin-right: auto;
 }
 .order-btn {
     font-weight: 500;
@@ -79,11 +134,20 @@ background-color: #2e2f42;
     letter-spacing: 0.04em;
     color: #fff;
     background: #4d5ae5;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    border-radius: 4px;
+padding: 16px 32px;
+border: none;
+min-width: 169px;
+height: 56px;
 }
 .order-btn:hover,
 .order-btn:focus {
 background: #404bbf;
 }
+/*main page styles  */
 
 /* Benefits Styles */
 .benefits-item {
@@ -109,14 +173,36 @@ background: #404bbf;
     text-align: center;
     color: #2e2f42;
 }
+.benefits-container {
+padding-top: 60px;
+width: 1158px;
+padding-right: 15px;
+padding-left: 15px;
+margin-left: auto;
+margin-right: auto;
+margin-bottom: 120px;
+}
+.benefits-list {
+display: flex;
+flex-wrap: wrap;
+gap: 24px;
+}
+.benefits {
+width: 264px;
+}
 /* Benefits Styles */
 
 /* Team Styles */
 .team-section {
-    background-color: #F4F4FD;
+    background-color: #f4f4fd;
+    padding-top: 120px;
+}
+.team-container {
+margin-bottom: 60px;
 }
 .team-person {
     background-color: #FFFFFF;
+    width: 264px;
 }
 .team-title {
     font-weight: 700;
@@ -126,6 +212,7 @@ background: #404bbf;
     text-transform: capitalize;
     text-align: center;
     color: #2e2f42;
+    margin-bottom: 72px;
 }
 .team-item {
     font-weight: 500;
@@ -145,9 +232,28 @@ background: #404bbf;
     color: #434455;
     background: #fff;
 }
+.team-list {
+display: flex;
+flex-wrap: wrap;
+gap: 24px;
+padding-bottom: 120px;
+}
 /* Team Styles */
 
 /* Portfolio Styles */
+.portfolio-container {
+margin-top: 60px;
+margin-bottom: 120px;
+}
+.container-list {
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 24px;
+    row-gap: 48px;
+}
+.container-list-item {
+width: 360px;
+}
 .portfolio-title-main {
 font-weight: 700;
 font-size: 36px;
@@ -156,6 +262,7 @@ letter-spacing: 0.02em;
 text-transform: capitalize;
 text-align: center;
 color: #2e2f42;
+margin-bottom: 72px;
 }
 .portfolio-title {
     font-weight: 500;
@@ -179,6 +286,15 @@ color: #2e2f42;
 .footer-item {
 background-color:#2e2f42;
 }
+.footer-container {
+padding-top: 100px;
+padding-bottom: 100px;
+width: 264px;
+display: flex;
+flex-direction: column;
+margin-left: 156px;
+margin-right: 1020px;
+}
 .logo-footer {
     font-family: "Raleway", sans-serif;
     font-weight: 700;
@@ -188,6 +304,7 @@ background-color:#2e2f42;
     text-transform: uppercase;
     color: #4d5ae5;
     background: #2e2f42;
+    display: flex;
 }
 .logo-footer-studio {
     color: #f4f4fd;
@@ -199,5 +316,7 @@ background-color:#2e2f42;
     letter-spacing: 0.02em;
     color: #f4f4fd;
     background: #2e2f42;
+    margin-top: 16px;
+    display: flex;
 }
 /* =========== /Footer styles =========== */
